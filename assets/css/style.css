@@ -12,7 +12,7 @@ main {
     background-color: white;
 }
 footer {
-    background-color: rgb(39, 32, 32);
+    background-color: rgb(24, 22, 22);
 }
 /* classi e id header prima section */
 header section div {
@@ -28,16 +28,19 @@ header section div {
 }
 #logo {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 30%;
+    background-image: url(https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/62a07b53139aec4c1fd07771_discord-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #link {
-    flex-basis: 48%;
+    flex-basis: 40%;
     display: flex;
     justify-content: center;
 }
 #login {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 30%;
     justify-content: flex-end;
 }
 .Titolo {
@@ -70,21 +73,37 @@ h1 {
 }
 .pulsanti {
     display: flex;
+    justify-content: center;
     max-width: 100%;
     margin-bottom: 200px;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
     font-size: larger;
 }
 .button1 {
     display: flex;
     justify-content: center;
-    flex-basis: 48%;
+    flex-basis: 20%;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px ;
+    height: 30%;
+    width: 40%;
+    cursor: pointer;
+    text-decoration: none;
 }
 .button2 {
     display: flex;
     justify-content: center;
-    flex-basis: 48%;
+    flex-basis: 20%;
+    align-items: center;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    border-radius: 20px ;
+    height: 30%;
+    width: 40%;
+    cursor: pointer;
+    text-decoration: none;
 }
 /* inizio main */
 .grancontainerbianco  {
@@ -198,23 +217,32 @@ h4 {
     width: 80%;
     padding: 10px;
 }
-footer .finale div {
-    height: 500px;
-    border: 2px dotted black;
-}
 .colonnarosa {
     width: 27%;
-    background-color: pink;
+    background-color: rgb(24, 22, 22);
 }
 .colonne {
     width: 19%;
-    background-color: aqua;
+    background-color: rgb(24, 22, 22);
 }
-hr {
-    background-color: lightgrey;
-    border: 2px solid lightgrey;
-    margin: 0 auto;
-    max-width: 80%;
+.colonnarosa h4 {
+    color: lightskyblue;
+}
+ul li {
+    margin-left: 2em;
+    list-style-type: none;
+    padding: 5px;
+    color: white;
+}
+#sezione {
+    font-size: 16px;
+    color: lightskyblue;
+}
+.separatore {
+    width: 100%;
+    height: 5px;
+    margin-bottom: 20px;
+    color: red;
 }
 .piedipagina {
     display: flex;
