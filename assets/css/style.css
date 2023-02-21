@@ -15,6 +15,9 @@ footer {
     background-color: rgb(39, 32, 32);
 }
 /* classi e id header prima section */
+header section div {
+    height: 150px;
+}
 .mainmenu {
     display: flex;
     justify-content: center;
@@ -63,6 +66,7 @@ h1 {
     max-width: 60%;
     padding: 10px;
     color: white;
+    font-size: larger;
 }
 .pulsanti {
     display: flex;
@@ -70,6 +74,7 @@ h1 {
     margin-bottom: 200px;
     margin: 0 auto;
     max-width: 60%;
+    font-size: larger;
 }
 .button1 {
     display: flex;
@@ -89,16 +94,16 @@ h1 {
 .grancontainergrigio {
     margin: 0 auto;
     max-width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
 }
 main section {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     width: 80%;
 }
-section div {
-    height: 150px;
-    border: 2px dotted black;
+main section div {
+    height: 500px;
 }
 .sectionbianca {
     padding: 20px;
@@ -107,20 +112,32 @@ section div {
     padding: 20px;
 }
 .div1-1 {
-    width: 70%;
-    background-color: aqua;
+    width: 65%;
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .div1-2 {
-    width: 30%;
-    background-color: pink;
+    width: 35%;
+}
+h2 {
+    font-size: 46px;
+    line-height: 100px;
+
+}
+main section div p {
+    font-size: 16px;
+    color: rgb(24, 22, 22);
+    font-size: larger;
 }
 .div2-1 {
-    width: 30%;
-    background-color: aqua;
+    width: 35%;
 }
 .div2-2 {
-    width: 70%;
-    background-color: pink;
+    width: 65%;
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .div3-1 {
     width: 70%;
@@ -155,8 +172,10 @@ footer .finale div {
     background-color: aqua;
 }
 hr {
-    background-color: grey;
-    border: 2px solid grey;
+    background-color: lightgrey;
+    border: 2px solid lightgrey;
+    margin: 0 auto;
+    max-width: 80%;
 }
 .piedipagina {
     display: flex;
