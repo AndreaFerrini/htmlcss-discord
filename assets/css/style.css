@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    background-color: white;
+}
+footer {
+    background-color: rgb(39, 32, 32);
+}
+/* classi e id header prima section */
+.mainmenu {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5px;
+    color: white;
+}
+#logo {
+    display: flex;
+    flex-basis: 25%;
+}
+#link {
+    flex-basis: 48%;
+    display: flex;
+    justify-content: center;
+}
+#login {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: flex-end;
+}
+.Titolo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5px;
+}
+/* classi seconda section header */
+.sottomenu {
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 5%;
+}
+h1 {
+    font-size: 56px;
+    color: white;
+}
+.descrizione {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 10px;
+    color: white;
+}
+.pulsanti {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 200px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    flex-basis: 48%;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    flex-basis: 48%;
+}
+/* inizio main */
+.grancontainerbianco  {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.grancontainergrigio {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: grey;
+}
+main section {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+section div {
+    height: 150px;
+    border: 2px dotted black;
+}
+.sectionbianca {
+    padding: 20px;
+}
+.sectiongrigia {
+    padding: 20px;
+}
+.div1-1 {
+    width: 70%;
+    background-color: aqua;
+}
+.div1-2 {
+    width: 30%;
+    background-color: pink;
+}
+.div2-1 {
+    width: 30%;
+    background-color: aqua;
+}
+.div2-2 {
+    width: 70%;
+    background-color: pink;
+}
+.div3-1 {
+    width: 70%;
+    background-color: aqua;
+}
+.div3-2 {
+    width: 30%;
+    background-color: pink;
+}
+.div4-1 {
+    width: 100%;
+    background-color: darkgreen;
+    height: 800px;
+}
+.finale {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+/* inizio footer */
+footer .finale div {
+    height: 500px;
+    border: 2px dotted black;
+}
+.colonnarosa {
+    width: 27%;
+    background-color: pink;
+}
+.colonne {
+    width: 19%;
+    background-color: aqua;
+}
+hr {
+    background-color: grey;
+    border: 2px solid grey;
+}
+.piedipagina {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: aqua;
+    height: 5px;
+    margin-top: 10px;
+}
