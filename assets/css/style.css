@@ -90,26 +90,27 @@ h1 {
 .grancontainerbianco  {
     margin: 0 auto;
     max-width: 100%;
+    padding: 20px;
 }
 .grancontainergrigio {
     margin: 0 auto;
     max-width: 100%;
     background-color: lightgrey;
+    padding: 20px;
 }
 main section {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     width: 80%;
-}
-main section div {
     height: 500px;
 }
-.sectionbianca {
-    padding: 20px;
-}
-.sectiongrigia {
-    padding: 20px;
+main .sectiongrigia2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
 }
 .div1-1 {
     width: 65%;
@@ -127,9 +128,10 @@ main section div {
 h2 {
     font-size: 46px;
     padding-bottom: 10px;
-
+    justify-content: center;
+    align-items: center;
 }
-main section div p {
+.section1 .section2 .section3 div p {
     font-size: 16px;
     color: rgb(24, 22, 22);
     font-size: larger;
@@ -160,18 +162,42 @@ main section div p {
     justify-content: center;
     align-items: center;
 }
+.divcolonna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divcolonna h2 p{
+    display: flex;
+}
+.scrittasopra .scrittasotto {
+    height: 10%;
+}
 .div4-1 {
     width: 100%;
-    background-color: darkgreen;
-    height: 800px;
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 78%;
 }
+h4 {
+    font-size: 46px;
+    padding-bottom: 10px;
+}
+.button3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* inizio footer */
 .finale {
     display: flex;
     margin: 0 auto;
     width: 80%;
     padding: 10px;
 }
-/* inizio footer */
 footer .finale div {
     height: 500px;
     border: 2px dotted black;
