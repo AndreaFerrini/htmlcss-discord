@@ -119,10 +119,14 @@ main section div {
 }
 .div1-2 {
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h2 {
     font-size: 46px;
-    line-height: 100px;
+    padding-bottom: 10px;
 
 }
 main section div p {
@@ -132,6 +136,10 @@ main section div p {
 }
 .div2-1 {
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .div2-2 {
     width: 65%;
@@ -140,12 +148,17 @@ main section div p {
     background-repeat: no-repeat;
 }
 .div3-1 {
-    width: 70%;
-    background-color: aqua;
+    width: 65%;
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .div3-2 {
-    width: 30%;
-    background-color: pink;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .div4-1 {
     width: 100%;
