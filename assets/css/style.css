@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,9 @@ header {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+html {
+    font-family: 'Rubik', sans-serif;
 }
 main {
     background-color: white;
@@ -99,6 +104,8 @@ h1 {
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
+    padding-right: 5px;
 }
 .pulsantemac {
     display: flex;
@@ -121,11 +128,11 @@ h1 {
 .button2 {
     display: flex;
     justify-content: center;
-    flex-basis: 20%;
+    flex-basis: 25%;
     align-items: center;
     background-color: rgb(24, 22, 22);
     color: white;
-    border-radius: 20px ;
+    border-radius: 20px;
     height: 30%;
     width: 40%;
     cursor: pointer;
@@ -133,8 +140,9 @@ h1 {
 }
 .button3 {
     background-color: lightskyblue;
+    text-align: center;
     color: white;
-    border-radius: 20px ;
+    border-radius: 20px;
     height: 30%;
     width: 40%;
     cursor: pointer;
@@ -241,12 +249,17 @@ h4 {
     font-size: 46px;
     padding-bottom: 10px;
 }
-.button3 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+
 }
 /* css effetto waves */
+.wave {
+    background-image: url(../img/wave.svg);
+    height: 180px;
+    filter: invert(100%) sepia(1%) saturate(2108%) hue-rotate(178deg) brightness(89%) contrast(85%);
+}
 /* inizio footer */
 .finale {
     display: flex;
@@ -264,6 +277,9 @@ h4 {
 }
 .colonnarosa h4 {
     color: lightskyblue;
+}
+footer .colonnarosa span {
+    justify-content: center;
 }
 ul li {
     margin-left: 2em;
