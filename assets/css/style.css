@@ -281,6 +281,17 @@ h4 {
 footer .colonnarosa span {
     justify-content: center;
 }
+#lingua {
+    color: white;
+}
+.social {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+footer div i {
+    margin-right: 10px;
+}
 ul li {
     margin-left: 2em;
     list-style-type: none;
